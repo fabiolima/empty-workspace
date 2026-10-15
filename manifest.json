@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "empty-workspace",
+  "name": "Empty Workspace",
+  "version": "1.0.0",
+  "author": "User",
+  "license": "MIT",
+  "description": "Jump to the first workspace with no windows, creating a new one when every workspace is occupied.",
+  "kinds": ["service"],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
